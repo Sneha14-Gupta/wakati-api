@@ -1,5 +1,6 @@
 {
   "name": "wakati-api",
+  "version": "1.0.0",
   "scripts": {
     "dev": "wrangler dev",
     "lint": "eslint .",
@@ -8,6 +9,7 @@
   },
   "dependencies": {
     "@hono/zod-openapi": "^0.18.3",
+    "@scalar/hono-api-reference": "^0.5.165",
     "hono": "^4.6.16",
     "hono-pino": "^0.7.0",
     "stoker": "^1.4.2"
